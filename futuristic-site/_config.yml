@@ -1,1 +1,12 @@
+title: Futuristic Blue
+description: A sleek, sci-fi inspired theme
+baseurl: ""
+url: "https://your-username.github.io"
 
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+author:
+  name: "Bulanadi, Mark Lorence"
