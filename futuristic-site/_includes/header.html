@@ -1,1 +1,9 @@
-
+<header class="site-header">
+  <h1>⚡ {{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+  <nav>
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/about' | relative_url }}">About</a>
+    <a href="{{ '/projects' | relative_url }}">Projects</a>
+  </nav>
+</header>
